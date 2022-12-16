@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:BudgetManager2.Model"
+             xmlns:viewModels="clr-namespace:BudgetManager2.ViewModels"
+             x:DataType="viewModels:BudgetManagerMainPageViewModel"
+             x:Class="BudgetManager2.Veiws.BudgetManagerMainPage"
+             Title="BudgetManagerMainPage">
+
+    <VerticalStackLayout>
+        <Label Text="Welcome to BudgetManager" FontSize="20"/>
+        <Button Text="Add Expense" Command="{Binding GoToAddExpenseCommand}" HorizontalOptions="EndAndExpand"/>
+        <Button Text="Add Income" Command="{Binding GoToAddIncomeCommand}" HorizontalOptions="EndAndExpand"/>
+       
+        <Label Text="Budget"
+               FontSize="50"
+               Margin="10"/>
+        <CollectionView ItemsSource="{Binding MainBudget}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="models:Budget">
+                    <StackLayout Margin="10">
+                        <HorizontalStackLayout Spacing="1" >
+                            <Label Text="{Binding Amount}" FontSize="20" TextColor="LightBlue" Margin="10"/>
+                        </HorizontalStackLayout>
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

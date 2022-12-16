@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{045CC5E7-8F7E-4368-82AE-6C94430D3CF4}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BudgetManager2/Models/Budget.cs">
+    <Files>
+      <File FileName="BudgetManager2/Models/Budget.cs" Line="1" Column="1" />
+      <File FileName="BudgetManager2/Models/Expense.cs" Line="1" Column="1" />
+      <File FileName="BudgetManager2/Models/Income.cs" Line="1" Column="1" />
+      <File FileName="BudgetManager2/Veiws/AddExpense.xaml" Line="1" Column="1" />
+      <File FileName="BudgetManager2/Veiws/AddIncome.xaml" Line="1" Column="1" />
+      <File FileName="BudgetManager2/Veiws/BudgetManagerMainPage.xaml" Line="1" Column="1" />
+      <File FileName="BudgetManager2/Veiws/BudgetManagerMainPage.xaml.cs" Line="20" Column="31" />
+      <File FileName="BudgetManager2/ViewModels/AddExpenseViewModel.cs" Line="29" Column="1" />
+      <File FileName="BudgetManager2/ViewModels/AddIncomeViewModel.cs" Line="1" Column="1" />
+      <File FileName="BudgetManager2/ViewModels/BudgetManagerMainPageViewModel.cs" Line="58" Column="43" />
+      <File FileName="BudgetManager2/Services/IBudgetManagerServices.cs" Line="1" Column="1" />
+      <File FileName="BudgetManager2/Services/BudgetManagerServices.cs" Line="19" Column="65" />
+      <File FileName="BudgetManager2/AppShell.xaml.cs" Line="1" Column="1" />
+      <File FileName="BudgetManager2/App.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BudgetManager2" expanded="True">
+            <Node name="BudgetManager2" expanded="True">
+              <Node name="Models" expanded="True">
+                <Node name="Expense.cs" selected="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="Veiws" expanded="True">
+                <Node name="BudgetManagerMainPage.xaml" expanded="True" />
+              </Node>
+              <Node name="ViewModels" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>Budgets</Value>
+          <Value>budgetList</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.ItemProperties.BudgetManager2 PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
